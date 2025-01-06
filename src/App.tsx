@@ -12,8 +12,8 @@ export default function App() {
               <div className="flex">
                 <Link to="/" className="flex items-center px-4 py-2 text-gray-700 hover:text-gray-900">
                   Classifier
-{/*                 </Link>
-                <Link to="/admin" className="flex items-center px-4 py-2 text-gray-700 hover:text-gray-900">
+                </Link>
+{/*                 <Link to="/admin" className="flex items-center px-4 py-2 text-gray-700 hover:text-gray-900">
                   History
                 </Link> */}
               </div>
