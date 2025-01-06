@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import ImageClassifier from './components/ImageClassifier';
-import AdminHistory from './components/admin/AdminHistory';
+// import AdminHistory from './components/admin/AdminHistory';
 
 export default function App() {
   return (
@@ -12,10 +12,10 @@ export default function App() {
               <div className="flex">
                 <Link to="/" className="flex items-center px-4 py-2 text-gray-700 hover:text-gray-900">
                   Classifier
-                </Link>
+{/*                 </Link>
                 <Link to="/admin" className="flex items-center px-4 py-2 text-gray-700 hover:text-gray-900">
                   History
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -23,7 +23,7 @@ export default function App() {
 
         <Routes>
           <Route path="/" element={<ImageClassifier />} />
-          <Route path="/admin" element={<AdminHistory />} />
+{/*           <Route path="/admin" element={<AdminHistory />} /> */}
         </Routes>
       </div>
     </BrowserRouter>
